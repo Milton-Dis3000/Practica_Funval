@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tarjeta {
+  width: 200px;
+  background-color: rgb(42, 139, 184);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.img-gato{
+  border-radius: 20px;
+}
+
+.wsp-box {
+  background-color: green;
+  padding: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descrip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.contact {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mes{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  
+}
+.star{
+  background-color: yellow;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap:30px;
+  background-color: #2D2D2D;
+  width: 600px;
+  height: 100px;
+  border-radius: 30px;
+  margin:20px 0;
+}
