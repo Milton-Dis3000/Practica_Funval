@@ -5,6 +5,7 @@
 }
 
 .body {
+  background-color: aqua;
   height: 100vh;
   color: white;
   display: flex;
