@@ -6,6 +6,7 @@ function App() {
     <>
       <section className="body">
         <div className="mes">
+          <h1>Tarjeta de Animales</h1>
           <Tarjeta
             img="http://placekitten.com/201/200"
             nombre="Doly"
